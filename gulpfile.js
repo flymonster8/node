@@ -13,6 +13,7 @@ var gulp = require('gulp'),
 	htmlmin = require('gulp-htmlmin'),
 	replace = require('gulp-replace'),
 	connect = require('gulp-connect'),
+	/*svgmin = require('gulp-svgmin'),*/
 	livereload = require('gulp-livereload');
 
 var config = require('./config');
@@ -143,6 +144,13 @@ gulp.task('watch', function() {
   	gulp.watch('./css/*.css', ['css']);
   	gulp.watch('./js/*.js', ['js']);
 });
+
+/*gulp.task('svgmin', function () {
+	gulp.src('./img/!*.svg')
+		.pipe(svgmin())
+		.pipe(gulp.dest('./dist/img'));
+});*/
+
 
 gulp.task('default', function() {
   // 将你的默认的任务代码放在这
