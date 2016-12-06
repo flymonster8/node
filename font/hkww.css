@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "DFPWaWaW5-GB";
+    src: url("hkww.eot"); /* IE9 */
+    src: url("hkww.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("hkww.woff") format("woff"), /* chrome, firefox */
+    url("hkww.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("hkww.svg#DFPWaWaW5-GB") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+

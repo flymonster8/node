@@ -1,0 +1,23 @@
+$fontSize: 20px;
+/*$fontSize: 100px;*/
+body{
+    font-size:$fontSize;
+}
+@font-face {
+    font-family: "DFPWaWaW5-GB";
+    src: url("../font/hkww.eot"); /* IE9 */
+    src: url("../font/hkww.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../font/hkww.woff") format("woff"), /* chrome, firefox */
+    url("../font/hkww.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("../font/hkww.svg#DFPWaWaW5-GB") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+p{
+    font-family: "DFPWaWaW5-GB";
+}
+div span{
+    color:#FFF;
+    font-size: 12px;
+}
+img{max-width: 100%;width: 100%; }

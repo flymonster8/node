@@ -1,0 +1,11 @@
+{
+  "name": "flymonster8",
+  "version": "1.0.0",
+  "description": "nodetest",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ayc",
+  "license": "ISC"
+}
