@@ -1,0 +1,53 @@
+﻿<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>样式测试页面</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <style>
+            .d01,.d02{
+                border: 1px solid black;
+                width: 300px;
+                height: 100px;
+            }
+            .d02 img{
+                vertical-align:middle;
+            }
+            .fa{
+                width: 300px;
+                height: 200px;
+                position: relative;
+                background: pink;
+                border: 1px solid #aaa;
+            }
+            .so{
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                top: -50px;
+                right: -50px;
+                background: deepskyblue;
+                border: 1px solid #3c3c3c;
+                opacity: 0.6;
+            }
+        </style>
+    </head>
+    <body >
+
+    <h2>block中文本与图片垂直居中对比</h2>
+    <div class="d01">
+        未垂直居中 <img src="img/user_01.jpg" alt="">
+    </div>
+    <div class="d02">
+        已垂直居中 <img src="img/user_01.jpg" alt="">
+    </div>
+    <br/>
+    <h2>定位的应用</h2>
+    <div class="fa">
+        father
+        <div class="so">
+            son
+        </div>
+    </div>
+
+    </body>
+</html>
